@@ -1,0 +1,50 @@
+body {
+    background: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header, #main, footer {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    background: #fff;
+}
+
+header h1, #main h2 {
+    margin: 0 0 20px;
+}
+
+.food {
+    width: 45%;
+    float: left;
+    margin: 2.5%;
+    position: relative;
+}
+
+.food img {
+    width: 100%;
+    height: auto;
+}
+
+.food .counter {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+}
+
+#next {
+    clear: both;
+    display: block;
+    margin: 20px 0;
+}
